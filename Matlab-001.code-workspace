@@ -4,5 +4,10 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.language": "en,en-US,en-GB",
+		"cSpell.enableFiletypes": [
+			"matlab"
+		]
+	}
 }
