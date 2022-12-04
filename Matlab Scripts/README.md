@@ -1,4 +1,4 @@
-# MATLAB Source code
+# MATLAB Scripts
 
 author: Izzuddin Ahmad Afif  
 izzuddinafif@gmail.com  
