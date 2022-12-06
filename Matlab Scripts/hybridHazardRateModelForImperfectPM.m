@@ -1,8 +1,10 @@
+% Hybrid Hazard Rate Model for Imperfect Preventive Maintenance
+% This model is based on the hybrid hazard rate model for imperfect preventive maintenance
 prompt="Input N: ";
 r=0.9;
 x=40;
 y=2.5;
-N=input(prompt)
+N=30%input(prompt)
 for k=1:N
     if k==1
         A(k)=0;
