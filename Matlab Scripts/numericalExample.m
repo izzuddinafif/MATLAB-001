@@ -12,7 +12,7 @@ Tc=4;
 Tp=2;
 r=0.01:0.01:1;
 h=@(zs) (y/x)*(zs/x).^(y-1);
-no=1; % !!!!!!!!! ganti ini untuk pilih drp (1-4; 1=10, 2=50, dst)
+no=2; % !!!!!!!!! ganti ini untuk pilih drp (1-4; 1=10, 2=50, dst)
 % Step 1: Compute solutions Tk of Equation (11). Theses solutions are functions of reliability threshold Rth
 Rrth=0.31;
 for k=1:N
@@ -42,6 +42,7 @@ for i=1:N
     ava(i)=s(i)/((i-1)*dcp+drp+s(i));
 end
 % Step 3: Based on Steps 1 & 2, choose N to maximise the function given by Equation (24). From the plot, N=7 is the optimal value of N.
+figure()
 plot(1:30,ava(1:30)) % cari av maks dan N optimal
 [M,I] = max(ava);
 disp("Availability = %");
